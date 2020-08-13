@@ -121,11 +121,34 @@ header nav ul li .firstpart a:hover {
 }
 
 .page2 .part2 h5 {
-  padding: 1.2rem 0 0rem 0;
+  padding: 1.2rem 0 0 0;
 }
 
 .page2 .part2 h5 i {
   color: lightblue;
   padding-right: .5rem;
+}
+
+.page3 {
+  background-color: #03032c;
+  height: 100vh;
+  color: white;
+}
+
+.page3 h1 {
+  text-align: center;
+  padding: 7rem 0 3rem 0;
+}
+
+.page3 h2 {
+  margin: 1rem 10rem 1rem 10rem;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+}
+
+.page3 h2 i {
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */

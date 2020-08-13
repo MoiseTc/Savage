@@ -100,11 +100,30 @@
                 background-color: red;
             }
             h5{
-                padding: 1.2rem 0 0rem 0;
+                padding: 1.2rem 0 0 0;
                 i{
                     color: lightblue;
                     padding-right: .5rem;
                 }
             }
         }
+  }
+  .page3{
+      background-color: rgb(3, 3, 44);
+      height: 100vh;
+      color: white;
+      h1{
+          text-align: center;
+          padding: 7rem 0 3rem 0;
+      }
+      h2{
+          margin: 1rem 10rem 1rem 10rem;
+          padding: 1.5rem 3rem 1.5rem 3rem;
+          background-color: white;
+          color: black;
+          font-size: 1rem;
+          i{
+              float:right;
+          }
+      }
   }
