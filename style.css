@@ -151,4 +151,33 @@ header nav ul li .firstpart a:hover {
 .page3 h2 i {
   float: right;
 }
+
+.page4 ul {
+  padding: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page4 ul li {
+  list-style-type: none;
+}
+
+.page4 ul li img {
+  height: 14rem;
+  border-radius: 2%;
+}
+
+.page4 ul li .bag {
+  text-align: center;
+}
+
+.page4 ul li .bag h6 {
+  padding-top: 1rem;
+}
+
+.page4 ul li .bag p {
+  padding: .5rem 2rem 1rem 2rem;
+}
 /*# sourceMappingURL=style.css.map */

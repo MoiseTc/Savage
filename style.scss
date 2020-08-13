@@ -127,3 +127,26 @@
           }
       }
   }
+  .page4{
+      ul{
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        li{
+            list-style-type: none;
+            img{
+                height: 14rem;
+                border-radius: 2%;
+            }
+            .bag{
+                text-align: center;
+                h6{
+                    padding-top: 1rem;
+                }
+                p{
+                    padding: .5rem 2rem 1rem 2rem;
+                }
+            }
+        }
+      }
+  }
