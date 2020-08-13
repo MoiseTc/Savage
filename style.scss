@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  header{
+      background-color: white;
+      nav{
+          ul{
+              display: flex;
+              li{
+                  list-style-type: none;
+                  padding: 1rem 0rem 1rem 7rem;
+                  a{
+                      color: blue;
+                      padding-top: 1.5rem;
+                      &:hover{
+                          text-decoration: none;
+                      }
+                  }
+                  .firstpart{
+                      display: grid;
+                      grid-template-columns: 1fr 1fr 1fr;
+                      grid-gap: 5rem;
+                      padding-top: .5rem;
+                      a{
+                          color: black;
+                          &:hover{
+                              text-decoration: none;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+  .landingpage{
+      text-align: center;
+      background-image: url(https://demo.w3layouts.com/demos_new/template_demo/17-05-2019/savage_demo_Free/2112248620/web/images/banner.jpg);
+      filter: brightness(80%);
+      background-size: cover;
+      height: 85vh;
+      padding: 15rem;
+      color: white;
+      h1{
+          font-size: 3.5rem;
+          padding: 0 3rem 1rem 3rem;
+          filter: brightness(100%);
+          color: rgb(255, 255, 255);
+         }
+         button{
+             padding: 1rem;
+             color: white;
+             border: none;
+             background-color: red;
+         }
+
+  }
+  .page1{
+      margin: 7rem 18rem 13rem 18rem;
+      text-align: center;
+      border: lightgray solid .01rem;
+      padding: 6rem 2rem 6rem 2rem;
+      p{
+          padding-top: .5rem;
+          color: rgb(196, 196, 196);
+      }
+  }
+  .page2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 5rem 2rem 5rem;
+        .part1{
+            ul{
+                li{
+                    padding-top: 1.3rem;
+                    list-style-type: none;
+                    img{
+                        height: 12rem;
+                    }
+                }
+            }
+        }
+        .part2{
+            h2{
+                padding: 2rem 0 1.5rem 0;
+                font-size: 2.5rem;
+            }
+            p{
+                color: lightgray;
+                padding-bottom: 1rem;
+            }
+            button{
+                padding: 1rem;
+                color: white;
+                border: none;
+                background-color: red;
+            }
+            h5{
+                padding: 1.2rem 0 0rem 0;
+                i{
+                    color: lightblue;
+                    padding-right: .5rem;
+                }
+            }
+        }
+  }
