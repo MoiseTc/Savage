@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Jost', sans-serif;
 }
 
 body {
@@ -23,7 +24,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: blue;
+  color: #0099e5;
   padding-top: 1.5rem;
 }
 
@@ -61,29 +62,34 @@ header nav ul li .firstpart a:hover {
 
 .landingpage h1 {
   font-size: 3.5rem;
-  padding: 0 3rem 1rem 3rem;
+  padding: 0 5rem 1rem 5rem;
   -webkit-filter: brightness(100%);
           filter: brightness(100%);
   color: white;
 }
 
 .landingpage button {
-  padding: 1rem;
+  padding: .8rem 2.5rem .8rem 2.5rem;
   color: white;
   border: none;
-  background-color: red;
+  border-radius: 5%;
+  background-color: #fe5d5d;
+}
+
+.landingpage button:hover {
+  color: #0099e5;
 }
 
 .page1 {
   margin: 7rem 18rem 13rem 18rem;
   text-align: center;
-  border: lightgray solid .01rem;
+  border: #777777 solid .01rem;
   padding: 6rem 2rem 6rem 2rem;
 }
 
 .page1 p {
   padding-top: .5rem;
-  color: #c4c4c4;
+  color: #777777;
 }
 
 .page2 {
@@ -109,28 +115,34 @@ header nav ul li .firstpart a:hover {
 }
 
 .page2 .part2 p {
-  color: lightgray;
+  color: #777777;
   padding-bottom: 1rem;
 }
 
 .page2 .part2 button {
-  padding: 1rem;
+  padding: .8rem 2.5rem .8rem 2.5rem;
   color: white;
   border: none;
-  background-color: red;
+  border-radius: 5%;
+  background-color: #fe5d5d;
+}
+
+.page2 .part2 button:hover {
+  color: #0099e5;
 }
 
 .page2 .part2 h5 {
   padding: 1.2rem 0 0 0;
+  font-size: 1rem;
 }
 
 .page2 .part2 h5 i {
-  color: lightblue;
+  color: #0099e5;
   padding-right: .5rem;
 }
 
 .page3 {
-  background-color: #03032c;
+  background-color: #323b43;
   height: 100vh;
   color: white;
 }
@@ -207,10 +219,10 @@ header nav ul li .firstpart a:hover {
 }
 
 .page5 .part1 button {
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: .8rem 2.5rem .8rem 2.5rem;
   background: transparent;
   color: white;
-  border: solid black .1rem;
+  border: solid white .1rem;
   border-radius: 2%;
 }
 
@@ -228,15 +240,19 @@ header nav ul li .firstpart a:hover {
 
 .page6 .part1 p {
   padding: 1rem 0 1rem 0;
-  color: lightgrey;
+  color: #777777;
   font-size: 1.2rem;
 }
 
 .page6 .part1 button {
-  padding: 1rem;
+  padding: .8rem 2.5rem .8rem 2.5rem;
   color: white;
   border: none;
-  background-color: red;
+  background-color: #fe5d5d;
+}
+
+.page6 .part1 button:hover {
+  color: #0099e5;
 }
 
 .page6 .part2 img {
@@ -259,6 +275,11 @@ header nav ul li .firstpart a:hover {
   list-style-type: none;
 }
 
+.page7 .part2 ul li h6 {
+  padding-top: .5rem;
+  color: #777777;
+}
+
 .page7 .part2 ul .biga {
   padding: 1.5rem 0rem 1.5rem 8rem;
 }
@@ -266,7 +287,7 @@ header nav ul li .firstpart a:hover {
 .page7 .part2 ul .biga img {
   height: 37rem;
   width: 30rem;
-  border: lightgray solid .5rem;
+  border: #f3f3f4 solid 0.5rem;
 }
 
 .page7 .part2 ul .bigb {
@@ -275,7 +296,7 @@ header nav ul li .firstpart a:hover {
 
 .page7 .part2 ul .bigb img {
   height: 28rem;
-  border: lightgray solid .5rem;
+  border: #f3f3f4 solid 0.5rem;
 }
 
 .page7 .part2 ul .bigc {
@@ -284,12 +305,12 @@ header nav ul li .firstpart a:hover {
 
 .page7 .part2 ul .bigc img {
   height: 30rem;
-  border: lightgray solid .5rem;
+  border: #f3f3f4 solid 0.5rem;
 }
 
 .page7 .part2 ul .bigd img {
   height: 35rem;
-  border: lightgray solid .5rem;
+  border: #f3f3f4 solid 0.5rem;
 }
 
 .page8 {
@@ -321,6 +342,105 @@ header nav ul li .firstpart a:hover {
   color: #f7f4f4;
   background: transparent;
   border: solid white;
-  padding: 1rem;
+  padding: .8rem 2.5rem .8rem 2.5rem;
+}
+
+.page9 {
+  padding: 5rem 14rem 5rem 14rem;
+}
+
+.page9 h1 {
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+
+.page9 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.page9 ul li {
+  list-style-type: none;
+}
+
+.page9 ul li img {
+  border-radius: 50%;
+  margin-left: 7rem;
+}
+
+.page9 ul li i {
+  color: #0099e5;
+  font-size: 4rem;
+}
+
+.page9 ul li p {
+  padding: 1rem 0 1rem 0;
+}
+
+.page9 ul li h5 {
+  font-size: 1rem;
+  color: #fe5d5d;
+}
+
+footer {
+  background-color: #1d2124;
+  padding: 5rem;
+}
+
+footer .part1 h1 {
+  text-align: center;
+}
+
+footer .part1 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .part1 ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 7rem 1rem 7rem;
+}
+
+footer .part1 ul li h4 {
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+}
+
+footer .part1 button {
+  padding: .8rem 2.5rem .8rem 2.5rem;
+  margin-left: 30rem;
+  color: white;
+  background-color: #0099e5;
+  border-radius: 2%;
+  border: none;
+}
+
+footer .part1 .icons {
+  text-align: center;
+}
+
+footer .part1 .icons i {
+  padding: 3rem;
+}
+
+.page10 {
+  color: white;
+}
+
+.page10 .part2 {
+  padding: .5rem;
+  text-align: center;
+  background-color: #0099e5;
+}
+
+.page10 .part2 h4 {
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=style.css.map */
