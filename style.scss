@@ -177,3 +177,98 @@
         }
     }
   }
+  .page6{
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      padding: 7rem 8rem 3rem 8rem;
+      .part1{
+          h2{
+             padding-bottom: 2rem;
+            }
+            p{
+                padding: 1rem 0 1rem 0;
+                color: lightgrey;
+                font-size: 1.2rem;
+            }
+            button{
+                padding: 1rem;
+                color: white;
+                border: none;
+                background-color: red;
+            }
+      }
+      .part2{
+          img{
+              height: 21rem;
+              border-radius: 2%;
+          }
+      }
+  }
+  .page7{
+      .part1{
+          text-align: center;
+        }
+        .part2{
+            ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                li{
+                    list-style-type: none;
+                }
+                .biga{
+                        padding: 1.5rem 0rem 1.5rem 8rem;
+                        img{
+                            height: 37rem;
+                            width: 30rem;
+                            border: lightgray solid .5rem;
+                        }
+                    }
+                    .bigb{
+                        padding: 4.5rem 5rem 1.5rem 0rem;
+                        img{
+                            height: 28rem;
+                            border: lightgray solid .5rem;
+                        }
+                    }
+                    .bigc{
+                        padding: 1.5rem 0rem 1.5rem 7rem;
+                        img{
+                            height: 30rem;
+                            border: lightgray solid .5rem;
+                        }
+                    }
+                    .bigd{
+                        img{
+                            height: 35rem;
+                            border: lightgray solid .5rem;
+                        }
+                    }
+            }
+        }
+  }
+  .page8{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/17-05-2019/savage_demo_Free/2112248620/web/images/banner2.jpg);
+    background-size: cover;
+    filter: brightness(70%);
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    .part1{
+        padding: 7rem 15rem 7rem 15rem;
+        text-align: center;
+        max-width: 80rem;
+        h1{
+            padding-right: 15rem;
+        }
+        p{
+            padding: .5rem 19rem .5rem 0rem;
+        }
+        button{
+            margin: .5rem 20rem 0rem 0rem;
+            color: rgb(247, 244, 244);
+            background: transparent;
+            border: solid white;
+            padding: 1rem;
+        }
+    }
+  }
